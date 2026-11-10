@@ -1,0 +1,13 @@
+name: LanternBrightness
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  lantern:
+    description: Open the lantern brightness menu or configure lanterns.
+    usage: /lantern [menu] | /lantern set <1-15> | /lantern clear
+    permission: lanternbrightness.use
+permissions:
+  lanternbrightness.use:
+    description: Allows configuring lantern brightness.
+    default: true
